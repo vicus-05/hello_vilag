@@ -1,0 +1,174 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+	background-image: url('../kepek/bg-body.gif');
+    background-attachment: fixed;
+    background-size: contain;
+	background-color: #333333;
+	font-size: 12px;
+	margin: 0;
+
+}
+
+p {
+	margin: 0px;
+}
+
+#wrapper {
+	background-color: #666666;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#header {
+
+}
+#header img{
+    max-width: 1000px;
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+}
+#main {
+	background-color: #999999;
+	width: 100%;
+/*	float: left;*/
+}
+#nav {
+	margin: 0px;
+	padding: 10px;
+    max-width: 200px;
+    min-width: 100px;
+	height: auto;
+    width: 20%;
+	float: left;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 10px;
+	list-style: none
+}
+#nav ul li {
+	border-bottom: 1px dashed rgba(255,255,255,.8);
+}
+#nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 0;
+	display: block
+}
+#nav a:hover {
+	padding: 10px;
+	background: rgba(255,255,255,.1)
+}
+
+#section {
+	background-color: #dddddd;
+    margin: 0 auto;
+	padding: 10px;
+	height: auto;
+    max-width: 600px;
+    min-width: 300px;
+    width: 60%;
+	float: left;
+}
+.box {
+	width: 90%;
+	height: auto;
+	max-width: 640px;
+	margin: 20px auto 20px auto;
+}
+.box .box-image img {
+    max-width: 640px;
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+/*    border-color: #32859d;
+    border-style: solid;
+    border-width: 1px;*/
+}
+
+.box .content {
+	font-family: Arial, Verdana, sans-serif;
+	background-color: #333333;
+	padding: 20px;
+}
+
+.box .content h1 {
+	color: #32859d;
+    font-size: 20px;
+	margin: 0 0 10px 0;
+}	
+
+.box .content h2 {
+	color: #32859d;
+    font-size: 16px;
+	margin: 0 0 10px 0;
+}	
+.box .content p {
+	color: #eeeeee;
+	text-align: justify;
+}
+
+.box .content q {
+	color: #ededed;
+}
+
+.box .content a {
+	color: orange;
+	text-decoration: none;
+	font-weight: normal;
+}
+.box .content a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+.box .content .details {
+	margin: 20px 0 0 0
+}
+
+.box .content .details a {
+	background: #cccccc;
+	color: black;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+#aside {
+	margin: 0px;
+	padding: 10px;
+	height: auto;
+    max-width: 200px;
+    min-width: 100px;
+    width: 20%;
+	float: left;
+}
+.kep {
+    margin-top: 20px;
+}
+
+.kep img {
+	margin: 0px auto 0px auto;
+    width: 100%;
+}
+.nev {
+	font-family: Arial, Verdana, sans-serif;
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: bold;
+	padding-top: 0px;
+}
+#footer {
+	clear: both;
+	margin: 0px;
+	padding: 10px;
+	height: auto;
+	width: 100%;
+}
+#footer p {
+	padding: 0 100px 0 100px;
+	text-align: center;
+}
